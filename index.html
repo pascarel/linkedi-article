@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Write article | Linkedin</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <!-- post toolbar control -->
+    <div class="post-toolbar ember-view ql-toolbar">
+        <div class="toolbar-wrapper">
+            <select class="ql-li-heading pull-left">
+                <option value="1" name="Titlu 1">Titlu 1</option>
+                <option value="2" name="Titlu 2">Titlu 2</option>
+                <option value="false" name="Normal" selected="">Normal</option>
+            </select>
+
+            <div class="button-group">
+                <button class="ql-li-bold" type="button">
+                    <li-icon type="bold-icon" size="small" role="img" aria-label="Aldin">
+                        <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                            <g class="small-icon" style="fill-opacity: 1">
+                                <path d="M14,4.7c0-2-1.7-3.7-3.7-3.7L2,1v1.2l1,0.2v11l-1,0.2V15h8.3c2,0,3.7-1.7,3.7-3.7v-0.6c0-1.1-0.5-2-1.2-2.7C13.5,7.3,14,6.4,14,5.3V4.7z M11.2,11.3c0,0.9-0.8,1.7-1.7,1.7H6V9h3.6c0.9,0,1.7,0.8,1.7,1.7V11.3z M11.2,5.3c0,0.9-0.8,1.7-1.7,1.7H6V3h3.6c0.9,0,1.7,0.8,1.7,1.7V5.3z"></path>
+                            </g>
+                        </svg>
+                    </li-icon>
+                </button>
+                <button class="ql-li-italic" type="button">
+                    <li-icon type="italic-icon" size="small" role="img" aria-label="Cursiv">
+                        <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                            <path d="M12.7,2.3l-2.5,0.5L7.7,13.2l2.3,0.5L9.7,15H3l0.3-1.3l2.5-0.5L8.3,2.8L6,2.3L6.3,1H13L12.7,2.3z" class="small-icon" style="fill-opacity: 1"></path>
+                        </svg>
+                    </li-icon>
+                </button>
+                <button class="ql-li-underline" type="button">
+                    <li-icon type="underline-icon" size="small" role="img" aria-label="Subliniere">
+                        <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                            <g class="small-icon" style="fill-opacity: 1">
+                                <path d="M2,14h12v1H2V14z M10,1v1.2l1,0.2v6.2C11,10,10,11,8.8,11H7.2C6,11,5,10,5,8.8V2.5l1-0.2V1H2v1.2l1,0.2v6.2C3,11.1,4.9,13,7.2,13h1.5c2.3,0,4.2-1.9,4.2-4.2V2.5l1-0.2V1H10z"></path>
+                            </g>
+                        </svg>
+                    </li-icon>
+                </button>
+            </div>
+
+            <div class="button-group">
+                <button value="ordered" class="ql-li-list" type="button">
+                    <li-icon type="numbered-list-icon" class="large" role="img" aria-label="Listă ordonată">
+                        <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                            <g class="large-icon" style="fill: currentColor">
+                            <g>
+                            <rect x="9" y="5" width="11" height="2"></rect>
+                            <rect x="9" y="11" width="11" height="2"></rect>
+                            <rect x="9" y="17" width="11" height="2"></rect>
+                            <path d="M4,8H5V5A1,1,0,0,0,4,4H3V5H4V8Z"></path>
+                            <path d="M5,16H3v1H5v0.5H4v1H5V19H3v1H5a1,1,0,0,0,1-1V17A1,1,0,0,0,5,16Z"></path>
+                            <path d="M5,10H3v1H5v0.5H4a1,1,0,0,0-1,1V14H6V13H4V12.5H5a1,1,0,0,0,1-1V11A1,1,0,0,0,5,10Z"></path>
+                            </g>
+                            </g>
+                        </svg>
+                    </li-icon>
+                </button>
+                <button value="bullet" class="ql-li-list" type="button">
+                    <li-icon type="bulleted-list-icon" class="large" role="img" aria-label="Listă neordonată">
+                        <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                            <g class="large-icon" style="fill: currentColor">
+                            <g>
+                              <rect x="8" y="5" width="12" height="2"></rect>
+                              <circle cx="4" cy="6" r="1.34"></circle>
+                              <rect x="8" y="11" width="12" height="2"></rect>
+                              <circle cx="4" cy="12" r="1.34"></circle>
+                              <rect x="8" y="17" width="12" height="2"></rect>
+                              <circle cx="4" cy="18" r="1.34"></circle>
+                            </g>
+                            </g>
+                        </svg>
+                    </li-icon>
+                </button>
+            </div>
+
+            <div class="button-group">
+                <button class="ql-li-blockquote" type="button">
+                    <li-icon type="quote-icon" size="small" role="img" aria-label="Blockquote">
+                        <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                            <g class="small-icon" style="fill-opacity: 1">
+                                <path d="M7,6.5C7,4.6,5.4,3,3.5,3C1.5,3,0,4.6,0,6.5C0,8.3,1.3,9.8,3.1,10l-1.6,2.3l1.5,1l3.4-4.9C6.8,7.9,7,7.2,7,6.5z M16,6.5C16,4.6,14.4,3,12.5,3C10.5,3,9,4.6,9,6.5c0,1.8,1.3,3.2,3.1,3.5l-1.6,2.4l1.6,1l3.4-4.8C15.8,7.9,16,7.2,16,6.5z"></path>
+                            </g>
+                        </svg>
+                    </li-icon>
+                </button>
+                <button class="ql-li-link" type="button">
+                    <li-icon type="link-icon" size="small" role="img" aria-label="Link">
+                        <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                            <g class="small-icon" style="fill-opacity: 1">
+                                <path d="M11,2a3,3,0,0,0-2.1.87L6.87,4.94a2.93,2.93,0,0,0-.72,1.21,2.93,2.93,0,0,0-1.21.72L2.87,8.94a3,3,0,1,0,4.19,4.19l2.07-2.07a2.93,2.93,0,0,0,.72-1.21,2.93,2.93,0,0,0,1.21-.72l2.07-2.07A3,3,0,0,0,11,2ZM5.83,11.89a1.22,1.22,0,0,1-1.72-1.72L6.17,8.11l0,0A3,3,0,0,0,7.91,9.8l0,0Zm6.07-6.07L9.83,7.89l0,0A3,3,0,0,0,8.09,6.2l0,0,2.07-2.07A1.22,1.22,0,0,1,11.89,5.83Z"></path>
+                            </g>
+                        </svg>
+                    </li-icon>
+                </button>
+            </div>
+        </div>
+        <button id="ember837" class="enable-cover-image ember-view">Adăugați o imagine de fundal</button>
+    </div>
+
+    <!-- cover image -->
+    <section class="cover-image ember-view">
+        <div class="cover-image__drop ember-view">
+            <div class="cover-image__disable-wrapper ember-view">
+                <div id="remove-cover-image" class="tooltip-container ember-view">
+                    <div class="tooltip-trigger">
+                        <button class="cover-image__disable">
+                            Eliminaţi fundalul
+                            <span class="svg-icon-wrap">
+                                <li-icon aria-hidden="true" type="cancel-icon" size="medium" color="true">
+                                    <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                                        <g class="large-icon" style="fill: currentColor">
+                                        <path d="M20,5.32L13.32,12,20,18.68,18.66,20,12,13.33,5.34,20,4,18.68,10.68,12,4,5.32,5.32,4,12,10.69,18.68,4Z"></path>
+                                        </g>
+                                    </svg>
+                                </li-icon>
+                            </span>
+                        </button>
+                    </div>
+
+                    <div role="tooltip" id="tooltip-remove-cover-image" class="tooltip tooltip-right ">
+                        Eliminaţi fundalul
+                    </div>
+                </div>
+            </div>
+            <label for="cover-image__file-input" class="cover-image__label">
+                Glisaţi imaginea aici sau <span class="faux-link">încărcaţi din computer</span>
+            </label>
+            <input type="file" id="cover-image__file-input" class="cover-image__file-input">
+
+            <!-- background control -->
+            <ul class="cover-image__toolbar">
+                <li>
+                  <button class="action full active">
+                    <span class="svg-icon-wrap">
+                        <span class="visually-hidden">Setaţi imaginea de fundal cu lăţime maximă</span>
+                        <li-icon aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="24" height="24" style="" x="0" y="0" preserveAspectRatio="xMinYMin meet">
+                                <g class="large-icon" style="fill: currentColor">
+                                    <path d="M17,5H7V3H17V5Zm2,4H5v6H19V9m1-2a1,1,0,0,1,1,1v8a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V8A1,1,0,0,1,4,7H20ZM17,19H7v2H17V19Z"></path>
+                                </g>
+                            </svg>
+                        </li-icon>
+                    </span>
+                  </button>
+                </li>
+
+                <li>
+                    <button class="action contain">
+                        <span class="svg-icon-wrap">
+                            <span class="visually-hidden">Setaţi imaginea de fundal cu lăţime fixă</span>
+                            <li-icon aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="24" height="24" style="" x="0" y="0" preserveAspectRatio="xMinYMin meet">
+                                    <g class="large-icon" style="fill: currentColor">
+                                    <path d="M20,5H4V3H20V5ZM18,9H6v6H18V9m1-2a1,1,0,0,1,1,1v8a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V8A1,1,0,0,1,5,7H19Zm1,12H4v2H20V19Z"></path>
+                                    </g>
+                                </svg>
+                            </li-icon>
+                        </span>
+                    </button>
+                </li>
+
+                <li>
+                    <button class="action trash">
+                        <span class="svg-icon-wrap">
+                            <span class="visually-hidden">Eliminați imaginea de fundal</span>
+                            <li-icon aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                                    <g class="large-icon" style="fill: currentColor">
+                                        <path d="M19.26,2.9A28,28,0,0,0,15,2.13V1.5A0.5,0.5,0,0,0,14.5,1h-5a0.5,0.5,0,0,0-.5.5V2.13a28,28,0,0,0-4.26.78,1,1,0,0,0-.74,1V9H5V21a1,1,0,0,0,1,1H18a1,1,0,0,0,1-1V9h1V3.88A1,1,0,0,0,19.26,2.9ZM17,20H7V9H17V20ZM18,7H6V4.59a26.35,26.35,0,0,1,6-.71,26.35,26.35,0,0,1,6,.71V7ZM11,18H10V11h1v7Zm3,0H13V11h1v7Z"></path>
+                                    </g>
+                                </svg>
+                            </li-icon>
+                        </span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- post container -->
+    <section class="post-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-3 col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Title">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8 post-editor">
+            <button class="embed-insertion-control" style="top: 0px; left: -30px;">
+              <span class="slate-insertion-control-active-icon">
+                <li-icon type="cancel-icon" size="medium" color="true" role="img" aria-label="Anulaţi înglobarea">
+                  <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                    <g class="large-icon" style="fill: currentColor">
+                      <path d="M20,5.32L13.32,12,20,18.68,18.66,20,12,13.33,5.34,20,4,18.68,10.68,12,4,5.32,5.32,4,12,10.69,18.68,4Z"></path>
+                    </g>
+                  </svg>
+                </li-icon>
+              </span>
+              <span class="slate-insertion-control-default-icon">
+                <li-icon type="content-add-icon" size="medium" color="true" role="img" aria-label="Introduceţi conţinut">
+                  <svg viewBox="0 0 24 24" width="24px" height="24px" style="enable-background:new 0 0 24 24;" x="0" y="0" preserveAspectRatio="xMinYMin meet">
+                    <path d="M14,18v2H3c-0.6,0-1-0.4-1-1V5c0-0.6,0.4-1,1-1h17c0.6,0,1,0.4,1,1v8h-2V6H4v12H14zM24,18h-3v-3h-2v3h-3v2h3v3h2v-3h3V18z" class="large-icon" style="fill: currentColor"></path>
+                  </svg>
+                </li-icon>
+              </span>
+            </button>
+            <!-- content toolbar -->
+            <div class="slate-embed-toolbar-wrapper">
+              <div class="slate-embed-toolbar">
+                <button class="btn-add-img" role="button">
+                  <div class="slate-embed-toolbar-icon">
+                    <li-icon type="image-icon" size="medium" color="true" role="img" aria-label="slate_image_video_title">
+                      <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                        <g class="large-icon" style="fill: currentColor">
+                          <path d="M21,4H3A1,1,0,0,0,2,5V19a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V5A1,1,0,0,0,21,4ZM20,6V16.65l-3.7-3.53a0.44,0.44,0,0,0-.6,0L13.79,15,7.87,9.13a0.44,0.44,0,0,0-.62,0L4,12.4V6H20ZM4,18V13.64l3.57-3.59,5.91,5.82a0.44,0.44,0,0,0,.61,0L16,14l4,3.82V18H4Zm12-6a2,2,0,1,0-2-2A2,2,0,0,0,16,12Zm0-3.25A1.25,1.25,0,1,1,14.75,10,1.25,1.25,0,0,1,16,8.75Z"></path>
+                        </g>
+                      </svg>
+                    </li-icon>
+                  </div>
+                  <span class="slate-embed-toolbar-label">Imagine</span>
+                </button>
+                <button class="btn-add-video" role="button">
+                  <div class="slate-embed-toolbar-icon">
+                    <li-icon type="video-camera-icon" size="medium" color="true" role="img" aria-label="Videoclip">
+                      <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                        <g class="large-icon" style="fill: currentColor">
+                          <path d="M21,5.92a1,1,0,0,0-.57.18L17,8.5V7a1,1,0,0,0-1-1H3A1,1,0,0,0,2,7V17a1,1,0,0,0,1,1H16a1,1,0,0,0,1-1V15.5l3.43,2.4a1,1,0,0,0,.57.18,1,1,0,0,0,1-1V6.92A1,1,0,0,0,21,5.92ZM15,16H4V8H15v8Zm2-5.21,3-2.1v6.62l-3-2.1V10.79Z"></path>
+                        </g>
+                      </svg>
+                    </li-icon>
+                  </div>
+                  <span class="slate-embed-toolbar-label">Videoclip</span>
+                </button>
+                <button class="btn-add-link" role="button">
+                  <div class="slate-embed-toolbar-icon">
+                    <li-icon type="link-icon" size="medium" color="true" role="img" aria-label="Linkuri">
+                      <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon">
+                        <g class="large-icon" style="fill: currentColor">
+                          <path   d="M17.29,3a3.7,3.7,0,0,0-2.62,1.09L12.09,6.67A3.7,3.7,0,0,0,11,9.29a3.65,3.65,0,0,0,.52,1.86l-0.37.37a3.66,3.66,0,0,0-4.48.56L4.09,14.67a3.71,3.71,0,1,0,5.24,5.24l2.59-2.59A3.7,3.7,0,0,0,13,14.71a3.65,3.65,0,0,0-.52-1.86l0.37-.37a3.66,3.66,0,0,0,4.48-.57l2.59-2.59A3.71,3.71,0,0,0,17.29,3ZM11.13,14.71a1.82,1.82,0,0,1-.54,1.3L8,18.59A1.83,1.83,0,0,1,5.41,16L8,13.41a1.79,1.79,0,0,1,1.74-.48L8.28,14.4A0.94,0.94,0,0,0,9.6,15.73l1.46-1.46A1.82,1.82,0,0,1,11.13,14.71ZM18.59,8L16,10.59a1.79,1.79,0,0,1-1.74.48L15.73,9.6A0.94,0.94,0,0,0,14.4,8.27L12.94,9.74A1.79,1.79,0,0,1,13.41,8L16,5.41A1.83,1.83,0,0,1,18.59,8Z">
+                          </path>
+                        </g>
+                      </svg>
+                    </li-icon>
+                  </div>
+                  <span class="slate-embed-toolbar-label">Linkuri</span>
+                </button>
+              </div>
+            </div>
+
+            <div id="target-blk"></div>
+            <!-- text editor -->
+            <div class="form-group" id="text-editor">
+              <textarea name="post-text" class="form-control post-text" placeholder="Scrieti ceva aici"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
